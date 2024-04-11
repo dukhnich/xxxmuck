@@ -1,0 +1,47 @@
+/* Homepage Header */
+.homepage__header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.homepage__title {
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.homepage__subtitle {
+  color: #666;
+  margin: 0;
+  font-size: 16px;
+}
+
+/* List and List Items */
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.list-item {
+  background-color: #fff;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+  display: block;
+}
+
+.list-item__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.list-item__name {
+  text-align: center;
+  padding: 10px 5px;
+  margin: 0;
+  background-color: #eee;
+  color: #333;
+}

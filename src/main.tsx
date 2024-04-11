@@ -24,7 +24,9 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+], {
+  basename: '/xxxmuck'
+});
 
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
