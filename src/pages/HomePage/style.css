@@ -24,12 +24,15 @@
 }
 
 .list-item {
-  background-color: #fff;
+  background-color: #eee;
   text-decoration: none;
   color: #333;
   border-radius: 5px;
   overflow: hidden;
   display: block;
+  &:hover {
+    background-color: #ccc;
+  }
 }
 
 .list-item__image {
@@ -42,6 +45,5 @@
   text-align: center;
   padding: 10px 5px;
   margin: 0;
-  background-color: #eee;
   color: #333;
 }

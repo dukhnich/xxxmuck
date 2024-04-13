@@ -33,7 +33,7 @@ function HomePage() {
       {products ? (
         <div className="list">
           {products.map((product) => (
-            <Link className="list-item" key={product.id} to={`/${product.id}`}>
+            <Link className="list-item" key={product.id} to={`/product/${product.id}`}>
               <img
                 src={product.image}
                 alt={product.name}
